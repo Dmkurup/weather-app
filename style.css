@@ -39,3 +39,24 @@ body{
 .degree-section h2{
     font-size:40px;
 }
+.userText input:focus ,button{
+  outline:none;
+}
+.userText input{
+    height:50px;
+    width:200px;
+    border-radius:10px;
+    margin:20px;
+}
+
+.userText button{
+    height:50px;
+    width:80px;
+    border-radius:10px;
+    background-color:rgb(149, 196, 90);
+    cursor:pointer;
+    font-weight:bolder;
+    color:#fff;
+    border:0;
+    margin:5px;
+}
